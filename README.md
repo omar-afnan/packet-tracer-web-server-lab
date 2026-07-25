@@ -33,7 +33,7 @@ Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
 
-![Ping result](ping result.png)
+
 
 The first ping request timed out because ARP had to resolve the destination's MAC address before the ICMP request could actually be delivered. Once ARP completed, the remaining three requests succeeded, confirming Layer 3 connectivity between PC0 and the web server.
 
@@ -41,7 +41,7 @@ The first ping request timed out because ARP had to resolve the destination's MA
 
 On PC0's Desktop tab, the Web Browser app was opened and `172.33.100.50` was entered into the URL field.
 
-![Web browser result](web browser.png)
+
 
 The browser successfully loaded the page titled "Welcome to the Learn IP Web Site," confirming that PC0 was able to reach the server, and that the server had a working web service (HTTP) responding to the request.
 
